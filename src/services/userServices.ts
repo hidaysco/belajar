@@ -1,7 +1,7 @@
 import {Router, Request , Response} from 'express'
 import {IServices} from '../shared/IServices'
 
-export default class userServices implements IServices {
+export class userServices implements IServices {
     path = '/users'
     router = Router()
     constructor() {
